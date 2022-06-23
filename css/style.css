@@ -69,6 +69,7 @@ body {
   margin-right: auto;
   padding: 1em;
 }
+
 @media (min-width: 600px) {
   .contain {
     padding: 0;
@@ -94,19 +95,23 @@ button {
 .wrapper {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
-.wrapper > * {
+
+.wrapper>* {
   padding: 1em;
 }
+
 @media (min-width: 700px) {
 
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-  .wrapper > * {
+
+  .wrapper>* {
     padding: 2em 2em;
   }
 }
+
 .contacts {
   background: #61A1F8;
   color: #fff;
@@ -118,9 +123,11 @@ form {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
+
 form label {
   display: block;
 }
+
 form p {
   margin: 0;
 }
@@ -140,7 +147,9 @@ button {
   width: 100%;
   border: 0;
 }
-button:hover, button:focus {
+
+button:hover,
+button:focus {
   background: #61A1F8;
   outline: 0;
 }
