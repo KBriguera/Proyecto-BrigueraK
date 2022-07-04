@@ -1,0 +1,52 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .subscribe_section .box {
+    padding: 75px 25px;
+  }
+
+  .subscribe_section .subscribe_form form button {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading_container h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading_container h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 420px) {}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
