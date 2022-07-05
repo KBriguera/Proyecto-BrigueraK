@@ -29,38 +29,21 @@ body {
 
   0%,
   40% {
-    background-image: url(../img/banner.webp);
+    background-image: url(../img/banner_redragon.webp);
   }
 
   45%,
   65% {
-    background-image: url(../img/banner\ 2.webp);
+    background-image: url(../img/banner2.webp);
   }
 
   70%,
   100% {
-    background-image: url(../img/banner\ 3.webp);
+    background-image: url(../img/banner1.webp);
   }
 }
 
-.capa1 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.226);
-}
 
-.info1 {
-  z-index: 1;
-  width: 100%;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 15%;
-
-}
 
 /* Formulario contacto */
 .contain {
