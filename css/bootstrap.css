@@ -290,6 +290,7 @@
   .col-md,
   .col-md-auto,
   .col-lg-4 {
+    z-index: 1;
     position: relative;
     width: 100%;
     padding-right: 15px;
