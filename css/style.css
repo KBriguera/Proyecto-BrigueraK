@@ -29,17 +29,17 @@ body {
 
   0%,
   40% {
-    background-image: url(../img/banner\ 2.jpg);
+    background-image: url(../img/banner.webp);
   }
 
   45%,
   65% {
-    background-image: url(../img/banner\ 2.png);
+    background-image: url(../img/banner\ 2.webp);
   }
 
   70%,
   100% {
-    background-image: url(../img/banner\ 3.png);
+    background-image: url(../img/banner\ 3.webp);
   }
 }
 
