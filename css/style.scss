@@ -44,28 +44,9 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 70px 0;
 }
 
-.layout_padding2 {
-  padding: 75px 0;
-}
-
-.layout_padding2-top {
-  padding-top: 75px;
-}
-
-.layout_padding2-bottom {
-  padding-bottom: 75px;
-}
-
-.layout_padding-top {
-  padding-top: 90px;
-}
-
-.layout_padding-bottom {
-  padding-bottom: 90px;
-}
 
 h1,
 h2 {
@@ -80,7 +61,7 @@ h2 {
   h2 {
     position: relative;
     margin-bottom: 0;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
 
     span {
@@ -133,13 +114,8 @@ a:focus {
 }
 
 .header_section {
-  padding: 10px 0;
+  padding: 4px 0;
 
-  .container-fluid {
-    padding-right: 25px;
-    padding-left: 25px;
-  }
-}
 
 .navbar-brand {
   @include second-font();
@@ -260,95 +236,6 @@ a:focus {
 
 /*end header section*/
 
-/* slider section */
-.slider_section {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  position: relative;
-  padding: 90px 0 75px 0;
-
-  .row {
-    align-items: center;
-  }
-
-  #customCarousel1 {
-    width: 100%;
-    position: unset;
-  }
-
-  .detail-box {
-
-    h1 {
-      font-size: 3.5rem;
-      font-weight: bold;
-      margin-bottom: 15px;
-      color: $primary2;
-
-      span {
-        color: $primary1;
-      }
-    }
-
-    p {
-      font-size: 14px;
-    }
-
-    a {
-      @include hero_btn($primary1, $white, 10px, 45px, 0);
-      margin-top: 10px;
-    }
-
-  }
-
-  .img-box {
-    img {
-      width: 100%;
-    }
-
-  }
-
-
-  .carousel-indicators {
-    position: unset;
-    margin: 0;
-    margin-top: 45px;
-    justify-content: flex-start;
-    align-items: center;
-
-    li {
-      background-color: $white;
-      width: 12px;
-      height: 12px;
-      border-radius: 100%;
-      opacity: 1;
-
-      &.active {
-        width: 20px;
-        height: 20px;
-        background-color: $primary1;
-      }
-    }
-  }
-}
-
-.slider_bg_box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top right;
-  }
-}
-
-// end slider section
 
 // product section
 .product_section {
@@ -360,7 +247,7 @@ a:focus {
   .box {
     position: relative;
     margin-top: 25px;
-    padding: 15px;
+    padding: 35px 35px;
     background-color: #f7f8f9;
     transition: all .3s;
     overflow: hidden;
@@ -490,7 +377,7 @@ a:focus {
     text-align: center;
     margin-top: 45px;
     background-color: $primary2;
-    padding: 25px;
+    padding: 45px 50px;
     border-radius: 5px;
     color: $white;
 
@@ -535,14 +422,14 @@ a:focus {
 
       input {
         width: 100%;
-        height: 50px;
+        height: 60px;
         border: none;
-        border-radius: 50px;
+        border-radius: 90px;
         outline: none;
-        padding: 0 25px;
+        padding: 5px 25px;
         background-color: $white;
         margin-top: 15px;
-        text-align: center;
+        text-align: left;
 
         &::placeholder {
           color: #171620;
@@ -568,8 +455,8 @@ a:focus {
 .footer_section {
   background-color: $primary1;
   color: $white;
-  padding-top: 70px;
-  text-align: center;
+  padding-top: 1px;
+  text-align: left;
 
   h4 {
     font-size: 28px;
@@ -583,7 +470,7 @@ a:focus {
   }
 
   .footer-col {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .footer_contact {
@@ -593,7 +480,7 @@ a:focus {
       flex-direction: column;
 
       a {
-        margin: 5px 0;
+        margin: 10px 0;
         color: $white;
 
         i {
@@ -617,7 +504,7 @@ a:focus {
   .footer_social {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 10px;
 
     a {
@@ -634,7 +521,7 @@ a:focus {
       font-size: 18px;
 
       &:hover {
-        color: $primary1;
+        color: $black;
       }
     }
   }
@@ -654,7 +541,7 @@ a:focus {
       flex: 1;
 
       #googleMap {
-        height: 100%;
+        height: 10%;
       }
     }
   }

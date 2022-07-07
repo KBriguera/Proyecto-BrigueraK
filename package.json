@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-briguerak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KBriguera/Proyecto-BrigueraK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KBriguera/Proyecto-BrigueraK/issues"
+  },
+  "homepage": "https://github.com/KBriguera/Proyecto-BrigueraK#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
