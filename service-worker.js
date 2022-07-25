@@ -8,7 +8,7 @@ const FILES_TO_CACHE = [
   '/offline.html',
   '/index.html',
   './img/aaaaa.webp',
-  '/files/install.js'
+  '/install.js'
 ];
 
 self.addEventListener('install', (evt) => {
