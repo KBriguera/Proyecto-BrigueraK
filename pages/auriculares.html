@@ -99,8 +99,34 @@
 
                               <g>
                               </g>
+                              
                            </svg>
                         </a>
+                        <div class="dropdown-menu">
+                           <ul>
+                              <li class="two columns u-pull-right">
+                                 <ul>
+                                    <li class="submenu">
+                                 <div id="carrito">
+                                    <table id="lista-carrito" class="u-full-width">
+                                       <thead>
+                                          <tr>
+                                             <th>Imagen</th>
+                                             <th>Nombre</th>
+                                             <th>Precio</th>
+                                             <th>Cantidad</th>
+                                             <th></th>
+                                          </tr>
+                                       </thead>
+                                       <tbody></tbody>
+                                    </table>
+            
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                 </div>
+                              </li>
+                                 </ul>
+                           </ul>
+                        </div>
                      </li>
                      <form class="form-inline">
                         <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
@@ -127,311 +153,83 @@
          </div>
       </section>
       <!-- end inner page section -->
+
       <!-- product section -->
       <section class="product_section layout_padding">
          <div class="container">
 
-            <div class="row">
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/Redragon Memecoleous Vector 1.webp" alt="Auricular-Memecoleus">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Redragon Memecoleous
-                        </h5>
-                        <h6>
-                           $4500
-                        </h6>
-                     </div>
+            <div id="lista-productos" class="container">
+
+
+               <div class="card">
+         
+                  <img src="../img/Redragon Memecoleous Vector 1.webp" class="imagen-producto u-full-width">
+         
+                  <div class="info-card">
+                     <h4>Redragon Memecoleous</h4>
+                     
+                     <p class="precio"> <span class="u-pull-right ">$4500</span></p>
+                     <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar
+                        Al Carrito</a>
+                  </div>
+               </div> 
+         
+         
+               <div class="card">
+                  <img src="../img/Redragon Ares Vector 1.webp" class="imagen-producto u-full-width">
+                  <div class="info-card">
+                     <h4>Redragon Ares</h4>
+                  
+                     <p class="precio"><span class="u-pull-right ">$1200</span></p>
+                     <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar
+                        Al Carrito</a>
                   </div>
                </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/Redragon Ares Vector 1.webp" alt="Auricular-Ares">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Redragon Ares
-                        </h5>
-                        <h6>
-                           $2800
-                        </h6>
-                     </div>
+         
+               <div class="card">
+                  <img src="../img/Redragon Siren Vector 3.webp" class="imagen-producto u-full-width">
+                  <div class="info-card">
+                     <h4>Redragon Siren</h4>
+                     
+                     <p class="precio"><span class="u-pull-right ">$1800</span></p>
+                     <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar
+                        Al Carrito</a>
+                  </div>
+               </div> 
+         
+         
+               <div class="card">
+                  <img src="../img/Redragon Scylla Vector 1.webp" class="imagen-producto u-full-width">
+                  <div class="info-card">
+                     <h4>Redragon Scylla</h4>
+                     <p class="precio"><span class="u-pull-right ">$1500</span></p>
+                     <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar
+                        Al Carrito</a>
                   </div>
                </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/Redragon Lamia2 Vector 5.webp" alt="Auricular-Lamia">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Redragon Lamia 2
-                        </h5>
-                        <h6>
-                           $4000
-                        </h6>
-                     </div>
+         
+         
+               <div class="card">
+                  <img src="../img/Redragon Talos Vector 1.webp" class="imagen-producto u-full-width">
+                  <div class="info-card">
+                     <h4>Redragon Talos</h4>
+                     <p class="precio"><span class="u-pull-right ">$2500</span></p>
+                     <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar
+                        Al Carrito</a>
                   </div>
                </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/Redragon Scylla Vector 1.webp" alt="Auricular-Scylla">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Redragon Scylla
-                        </h5>
-                        <h6>
-                           $2000
-                        </h6>
-                     </div>
+         
+         
+               <div class="card">
+                  <img src="img/Redragon Themis Vector 1.webp" class="imagen-producto u-full-width">
+                  <div class="info-card">
+                     <h4>Redragon Themis</h4>
+                     <p class="precio"> <span class="u-pull-right ">$1200</span></p>
+                     <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar
+                        Al Carrito</a>
                   </div>
                </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/Redragon Zeus-W Vector 1.webp" alt="Auricular-Zeus">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Redragon Zeus White
-                        </h5>
-                        <h6>
-                           $2000
-                        </h6>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/Redragon Zeus2 Vector 1.webp" alt="Auricular-Zeus2">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Redragon Zeus
-                        </h5>
-                        <h6>
-                           $4000
-                        </h6>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/Redragon Siren Vector 3.webp" alt="Auricular-Siren">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Redragon Siren
-                        </h5>
-                        <h6>
-                           $3000
-                        </h6>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/Redragon Talos Vector 1.webp" alt="Auricular-Talos">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Redragon Talos
-                        </h5>
-                        <h6>
-                           $4000
-                        </h6>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/Redragon Themis Vector 1.webp" alt="Auricular-Themis">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Redragon Themis
-                        </h5>
-                        <h6>
-                           $6500
-                        </h6>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/Redragon Thunder Vector 1.webp" alt="Auricular-Thunder">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Redragon Thunder
-                        </h5>
-                        <h6>
-                           $4000
-                        </h6>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/razer-kraken.webp" alt="Auricular-Kraken">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Razer Kraken
-                        </h5>
-                        <h6>
-                           $6500
-                        </h6>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="box">
-                     <div class="option_container">
-                        <div class="options">
-                           <a href="" class="option1">
-                              Añadir al carrito
-                           </a>
-                           <a href="" class="option2">
-                              Comprar
-                           </a>
-                        </div>
-                     </div>
-                     <div class="img-box">
-                        <img src="../img/razer hammerhead.webp" alt="Auricular-Hammerhead">
-                     </div>
-                     <div class="detail-box">
-                        <h5>
-                           Auriculares Razer HammerHead
-                        </h5>
-                        <h6>
-                           $4000
-                        </h6>
-                     </div>
-                  </div>
-               </div>
+         
             </div>
          </div>
       </section>
